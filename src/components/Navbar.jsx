@@ -24,9 +24,22 @@ const Navbar = () => {
         </div>
 
         <div className='flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1 sm:pr-0 pr-5'>
-          <img src={searchImg} alt='search' width={18} height={18} />
-          <img src={bagImg} alt='bag' width={18} height={18} />
-        </div>
+        <a
+    href="https://www.apple.com/retail/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+  <img src={searchImg} alt='search' width={18} height={18} />
+  </a>
+  <a
+    href="https://www.apple.com/shop/buy-iphone/iphone-15-pro"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={bagImg} alt='bag' width={18} height={18} />
+  </a>
+</div>
+
       </nav>
     </header>
   );
