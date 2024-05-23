@@ -9,7 +9,14 @@ import {
   yellowImg,
 } from "../utils";
 
-export const navLists = ["Store", "Mac", "iPhone", "Support"];
+export const navLists = [
+  { name: "Store", url: "https://www.apple.com/store" },
+  { name: "Mac", url: "https://www.apple.com/mac" },
+  { name: "iPhone", url: "https://www.apple.com/iphone" },
+  { name: "Support", url: "https://www.apple.com/support" }
+];
+
+
 
 export const hightlightsSlides = [
   {
